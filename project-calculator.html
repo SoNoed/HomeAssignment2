@@ -58,14 +58,37 @@
           </label>
         </form> 
 
+          <div>
           <label for="amount">Select pages amount (1–10):</label>
           <input type="range" id="amount" name="amount" min="1" max="10" value="1" oninput="updateAmount(this.value)">
           <span id="amount-value">1</span>
+          </div>
 
+          <div>
+            <form>
+              <label for="response">Would you like a custom page?</label><br>
+              <select id="response" name="response">
+                <option value="yes" selected>Yes</option>
+                <option value="no">No</option>
+              </select>
+            </form>
+
+          </div>
         
+              <div>
+                <button type="button" onclick="resetForm()">Reset</button>
+              </div>
+
+              <div>
+                <button onclick="calculatePrice()">Calculate Price</button>
+                <p id="price-result">Total Price: $0</p>
+
+              </div>
 
       </aside>
     </div>
+
+
 
     </main>
 
