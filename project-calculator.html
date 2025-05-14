@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="services/global.js"></script>
+    <script defer src="services/calculator.js"></script>
     <link rel="stylesheet" href="assets/style/global.css" type="text/css" />
     <link rel="stylesheet" href="assets/style/calcualtor.css" type="text/css" />
   <title>Project Quote Calculator</title>
@@ -37,8 +38,32 @@
         </section>
 
        <aside class="side-2">
-          <h2>Sidebar</h2>
-          <p>This is the sidebar content.</p>
+
+        <form>
+          <p>Choose a website type:</p>
+
+          <label>
+            <input type="radio" name="site-type" value="business" checked>
+            Business site
+          </label><br>
+
+          <label>
+            <input type="radio" name="site-type" value="store">
+            Online store
+          </label><br>
+
+          <label>
+            <input type="radio" name="site-type" value="blog">
+            Blog
+          </label>
+        </form> 
+
+          <label for="amount">Select pages amount (1–10):</label>
+          <input type="range" id="amount" name="amount" min="1" max="10" value="1" oninput="updateAmount(this.value)">
+          <span id="amount-value">1</span>
+
+        
+
       </aside>
     </div>
 

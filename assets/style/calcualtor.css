@@ -44,3 +44,19 @@
   }
 }
 
+form {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+
+input[type="range"] {
+  width: 200px;
+  margin: 10px 0;
+}
