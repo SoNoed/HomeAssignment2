@@ -2,7 +2,7 @@
       margin: 0;
       padding: 20px;
       font-family: Arial, sans-serif;
-      background-color: #a74f7f;
+      background-color: #faebab;
     }
 
     .grid-container {
@@ -17,8 +17,9 @@
       background-color: #ffb6c1;
       padding: 10px;
       border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(163, 236, 156, 0.2);
+      box-shadow: 0 4px 8px rgba(146, 79, 233, 0.582);
       text-align: center;
+      color: #ffffff;
     }
 
     .left-box h1,
@@ -26,14 +27,17 @@
     .right-bottom h1 {
       margin: 0 0 10px;
       font-size: 24px;
-      color: #39ec51;
+      color: #a46ae7;
+      text-decoration: underline dotted #654eca;
+      font-size: 30px;
     }
 
     .left-box p,
     .right-top p,
     .right-bottom p {
-      color: #3937e2;
+      color: #a18ef1;
     }
+
 
     @media (max-width: 767px) {
       .grid-container {
@@ -77,13 +81,13 @@
       padding: 20px;
       text-align: center;
       margin: 10px;
-      color:aqua;
+      color:rgb(165, 55, 209);
     }
 
     .item-image
 {
 object-fit: cover;
-max-width: 70%;
+max-width: 30%;
 max-height: auto;
 padding: 5px;
 transition: all 0.8s ease;

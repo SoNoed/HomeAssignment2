@@ -14,21 +14,22 @@
 
 
     .grid-item {
-      background-color: #11005e;
+      background-color: #ffa4db;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgb(0, 255, 106);
+      box-shadow: 0 4px 8px rgb(144, 108, 165);
       text-align: center;
     }
 
     .grid-item h1 {
       margin: 0 0 10px;
       font-size: 24px;
-      color: #99004d;
+      color: #560b74;
+      text-decoration: underline dotted #2f055e;
     }
 
     .grid-item p {
-      color: #660033;
+      color: #5f1ea8;
     }
 
     @media (max-width: 767px) {
@@ -56,4 +57,24 @@
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.bullets
+{
+      color: #f6ffff;
+      font-size: 18px;
+      margin-bottom: 8px;
+      text-align: center;
+      padding-top: 10px;
+
+}
+
+.kindness
+{
+      color: #917fa8;
+      font-size: 18px;
+      margin-bottom: 8px;
+      text-align: center;
+      padding-top: 10px;
+
 }

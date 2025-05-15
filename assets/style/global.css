@@ -139,16 +139,36 @@ padding-bottom: 20px;
   background-color: #f8f2d6;
 }
 
-.image1
-{
-  max-width: 10%;
-  height: auto;
+.image-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top:20px;
 }
 
+.centered-image {
+  max-width: 100px;
+  height: auto;
+}
 
+.glowy
+{
+  text-shadow:
+    0 0 5px rgb(238, 247, 227),
+    0 0 10px rgb(227, 250, 184),
+    0 0 20px rgb(242, 255, 195),
+    0 0 40px rgb(242, 243, 164);
+
+    color:#f37b99
+}
+
+.underline {
+  padding: 10px 10px;
+  margin: 5px;
+  border-bottom: 2px solid #f17daabe;
+  display: inline-block;
+  color:#eb627f;
+}
 
 
 
@@ -157,7 +177,7 @@ padding-bottom: 20px;
 
 .cta-section {
   padding: 40px 20px;
-  background-color: #f4f4f4;
+  background-color: #f8f5e4;
 }
 
 .cta-container {
@@ -181,7 +201,7 @@ padding-bottom: 20px;
 
 .cta-contact a {
   text-decoration: none;
-  color: #0077b5;
+  color: #f0b2d6;
   font-weight: bold;
 }
 
@@ -237,4 +257,10 @@ padding-bottom: 20px;
       height: 100%;
       border: none;
       overflow-y: scroll;
+    }
+
+    .text-88
+    {
+color: #f0b2d6;
+font-style: oblique;
     }
