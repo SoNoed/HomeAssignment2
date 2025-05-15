@@ -108,12 +108,12 @@ header {
 }
 
 
-/* General Styles */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #dae7dd;
+  color: #198b8f;
 }
 
 
@@ -151,13 +151,11 @@ body {
 
 
 .call-to-action {
-  padding: 60px 20px;
-  background-color: #ffffff;
+  padding: 60px 30px;
+  background-color: #a13838;
 }
 
 .cta-container {
-  display: flex;
-  flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
   gap: 40px;
@@ -185,7 +183,7 @@ body {
 
 .cta-column i {
   margin-right: 10px;
-  color: #0077b5; /* LinkedIn Blue */
+  color: #0077b5;
 }
 
 .cta-column a {
@@ -195,4 +193,9 @@ body {
 
 .cta-column a:hover {
   text-decoration: underline;
+}
+
+.ctn11 {
+  display: grid;
+  gap: 20px;
 }
