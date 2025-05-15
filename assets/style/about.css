@@ -15,9 +15,9 @@
     .right-top,
     .right-bottom {
       background-color: #ffb6c1;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(163, 236, 156, 0.2);
       text-align: center;
     }
 
@@ -26,13 +26,13 @@
     .right-bottom h1 {
       margin: 0 0 10px;
       font-size: 24px;
-      color: #99004d;
+      color: #39ec51;
     }
 
     .left-box p,
     .right-top p,
     .right-bottom p {
-      color: #660033;
+      color: #3937e2;
     }
 
     @media (max-width: 767px) {
@@ -71,3 +71,27 @@
         grid-template-columns: 2fr 1fr;
       }
     }
+
+    .setup
+    {
+      padding: 20px;
+      text-align: center;
+      margin: 10px;
+      color:aqua;
+    }
+
+    .item-image
+{
+object-fit: cover;
+max-width: 70%;
+max-height: auto;
+padding: 5px;
+transition: all 0.8s ease;
+}
+
+.item-image:hover 
+{
+    background-color: rgba(212, 233, 251, 0.177);
+    transform: scale(1.5);
+    z-index: 1;
+}
