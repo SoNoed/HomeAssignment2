@@ -1,3 +1,4 @@
+
 .calc-side-1 {
   display: grid;
   gap: 20px;
@@ -5,13 +6,25 @@
 }
 
 .side-1 {
-  background-color: #325a77;
+  background-color: #FCE4EC;
   padding: 20px;
   border-radius: 8px;
 }
 
 .side-2 {
   background-color: #fce4ec;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.price-item{
+  color:#e94785;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.price-item22{
+  color:#b60589;
   padding: 20px;
   border-radius: 8px;
 }
@@ -97,7 +110,7 @@ button {
   border-radius: 5px;   
   cursor: pointer; 
   transition: background-color 0.3s ease;  
-  margin: 10px;
+  margin: 20px;
 }
 
 button:hover {
